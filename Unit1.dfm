@@ -19,20 +19,21 @@ object Form1: TForm1
     Top = 24
     object Peh1: TMenuItem
       Caption = 'Menu'
-      object Login1: TMenuItem
-        Caption = 'Login'
-      end
       object Pegawai1: TMenuItem
         Caption = 'Pegawai'
+        OnClick = Pegawai1Click
       end
       object Permohonan1: TMenuItem
         Caption = 'Permohonan'
+        OnClick = Permohonan1Click
       end
       object IjinCuti1: TMenuItem
         Caption = 'Ijin Cuti'
+        OnClick = IjinCuti1Click
       end
       object SuratCuti1: TMenuItem
         Caption = 'Surat Cuti'
+        OnClick = SuratCuti1Click
       end
     end
   end

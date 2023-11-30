@@ -16,9 +16,9 @@ object Form3: TForm3
   object Label1: TLabel
     Left = 16
     Top = 8
-    Width = 91
+    Width = 67
     Height = 16
-    Caption = 'Nama Kustomer'
+    Caption = 'No Pegawai'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -29,9 +29,9 @@ object Form3: TForm3
   object Label2: TLabel
     Left = 16
     Top = 40
-    Width = 46
+    Width = 33
     Height = 16
-    Caption = 'Telepon'
+    Caption = 'Nama'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -42,9 +42,9 @@ object Form3: TForm3
   object Label3: TLabel
     Left = 16
     Top = 72
-    Width = 40
+    Width = 44
     Height = 16
-    Caption = 'Alamat'
+    Caption = 'Jabatan'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -55,9 +55,9 @@ object Form3: TForm3
   object Label4: TLabel
     Left = 16
     Top = 104
-    Width = 25
+    Width = 38
     Height = 16
-    Caption = 'Kota'
+    Caption = 'Bagian'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -68,9 +68,9 @@ object Form3: TForm3
   object Label5: TLabel
     Left = 16
     Top = 136
-    Width = 52
+    Width = 53
     Height = 16
-    Caption = 'Kode Pos'
+    Caption = 'Golongan'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
