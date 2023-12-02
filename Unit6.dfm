@@ -1,9 +1,9 @@
 object Form6: TForm6
   Left = 192
   Top = 152
-  Width = 928
+  Width = 1023
   Height = 480
-  Caption = 'Surat Cuti'
+  Caption = 'Selesai Cuti'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,9 +16,9 @@ object Form6: TForm6
   object Label1: TLabel
     Left = 16
     Top = 8
-    Width = 91
+    Width = 50
     Height = 16
-    Caption = 'Nama Kustomer'
+    Caption = 'No Surat'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -29,9 +29,9 @@ object Form6: TForm6
   object Label2: TLabel
     Left = 16
     Top = 40
-    Width = 46
+    Width = 81
     Height = 16
-    Caption = 'Telepon'
+    Caption = 'Tanggal Surat'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -42,9 +42,9 @@ object Form6: TForm6
   object Label3: TLabel
     Left = 16
     Top = 72
-    Width = 40
+    Width = 33
     Height = 16
-    Caption = 'Alamat'
+    Caption = 'Nama'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -55,9 +55,9 @@ object Form6: TForm6
   object Label4: TLabel
     Left = 16
     Top = 104
-    Width = 25
+    Width = 44
     Height = 16
-    Caption = 'Kota'
+    Caption = 'Jabatan'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -68,9 +68,87 @@ object Form6: TForm6
   object Label5: TLabel
     Left = 16
     Top = 136
-    Width = 52
+    Width = 38
     Height = 16
-    Caption = 'Kode Pos'
+    Caption = 'Bagian'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 352
+    Top = 8
+    Width = 53
+    Height = 16
+    Caption = 'Golongan'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 352
+    Top = 40
+    Width = 56
+    Height = 16
+    Caption = 'Mulai Cuti'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 352
+    Top = 72
+    Width = 67
+    Height = 16
+    Caption = 'Selesai Cuti'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 352
+    Top = 104
+    Width = 40
+    Height = 16
+    Caption = 'Alamat'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 352
+    Top = 136
+    Width = 67
+    Height = 16
+    Caption = 'No Pegawai'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 656
+    Top = 72
+    Width = 54
+    Height = 16
+    Caption = 'Kode Cuti'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -81,7 +159,7 @@ object Form6: TForm6
   object DBGrid1: TDBGrid
     Left = 16
     Top = 232
-    Width = 881
+    Width = 953
     Height = 137
     DataSource = ds1
     TabOrder = 0
@@ -109,7 +187,7 @@ object Form6: TForm6
   object edt2: TEdit
     Left = 120
     Top = 40
-    Width = 449
+    Width = 209
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -123,7 +201,7 @@ object Form6: TForm6
   object edt3: TEdit
     Left = 120
     Top = 72
-    Width = 449
+    Width = 209
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -137,7 +215,7 @@ object Form6: TForm6
   object edt4: TEdit
     Left = 120
     Top = 104
-    Width = 449
+    Width = 209
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -151,7 +229,7 @@ object Form6: TForm6
   object edt5: TEdit
     Left = 120
     Top = 136
-    Width = 449
+    Width = 209
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -240,6 +318,91 @@ object Form6: TForm6
     Caption = 'Laporan'
     TabOrder = 11
   end
+  object edt6: TEdit
+    Left = 432
+    Top = 8
+    Width = 209
+    Height = 24
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 12
+    Text = 'edt1'
+  end
+  object edt7: TEdit
+    Left = 432
+    Top = 40
+    Width = 209
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+    Text = 'edt2'
+  end
+  object edt8: TEdit
+    Left = 432
+    Top = 72
+    Width = 209
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 14
+    Text = 'edt2'
+  end
+  object edt9: TEdit
+    Left = 432
+    Top = 104
+    Width = 209
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 15
+    Text = 'edt2'
+  end
+  object edt10: TEdit
+    Left = 432
+    Top = 136
+    Width = 209
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 16
+    Text = 'edt2'
+  end
+  object edt11: TEdit
+    Left = 720
+    Top = 72
+    Width = 209
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 17
+    Text = 'edt2'
+  end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
@@ -272,8 +435,8 @@ object Form6: TForm6
     UserName = 'frxDBDataset1'
     CloseDataSource = False
     DataSet = ZQuery1
-    Left = 680
-    Top = 32
+    Left = 776
+    Top = 104
   end
   object frxReport1: TfrxReport
     Version = '4.0.11'
@@ -290,8 +453,8 @@ object Form6: TForm6
       'begin'
       ''
       'end.')
-    Left = 680
-    Top = 88
+    Left = 776
+    Top = 160
     Datasets = <
       item
         DataSet = frxDBDataset1

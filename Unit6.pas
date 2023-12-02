@@ -31,6 +31,18 @@ type
     ds1: TDataSource;
     frxDBDataset1: TfrxDBDataset;
     frxReport1: TfrxReport;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    edt6: TEdit;
+    edt7: TEdit;
+    edt8: TEdit;
+    edt9: TEdit;
+    edt10: TEdit;
+    edt11: TEdit;
   private
     { Private declarations }
   public

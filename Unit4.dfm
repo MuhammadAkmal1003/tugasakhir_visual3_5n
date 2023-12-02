@@ -283,7 +283,7 @@ object Form4: TForm4
     Left = 456
     Top = 8
     Width = 193
-    Height = 24
+    Height = 21
     TabOrder = 12
     Text = 'edt6'
   end
@@ -291,7 +291,7 @@ object Form4: TForm4
     Left = 456
     Top = 40
     Width = 193
-    Height = 24
+    Height = 21
     TabOrder = 13
     Text = 'edt7'
   end
@@ -299,7 +299,7 @@ object Form4: TForm4
     Left = 456
     Top = 72
     Width = 193
-    Height = 24
+    Height = 21
     TabOrder = 14
     Text = 'edt7'
   end
